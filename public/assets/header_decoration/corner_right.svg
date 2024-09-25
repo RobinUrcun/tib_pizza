@@ -1,0 +1,12 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Définitions du masque -->
+  <mask id="hole">
+    <!-- Remplit tout de blanc -->
+    <rect width="200" height="200" fill="white" />
+    <!-- Crée un trou carré avec des coins arrondis -->
+    <rect x="0" y="0" width="200" height="200" rx="50" ry="50" fill="black" />
+  </mask>
+
+  <!-- Fond blanc avec un trou où le masque est appliqué -->
+  <rect width="200" height="200" fill="white" mask="url(#hole)" />
+</svg>

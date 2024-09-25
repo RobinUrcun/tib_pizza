@@ -1,0 +1,29 @@
+// RESET CSS //
+@import "./Base.scss/resetCss";
+
+// BASE AND UTILS //
+@import "./Base.scss/base";
+@import "./Utils/fonts";
+
+// HEADER //
+
+@import "./Layout/header/header";
+@import "./Layout/header/nav/nav";
+@import "./Layout/header/title/title";
+
+// SECTIONS //
+
+@import "./Components/story/story";
+@import "./Components/menu/menu";
+@import "./Components/menu/MainPizzas/mainPizzas";
+@import "./Components/location/location";
+@import "./Components/advices/advices";
+@import "./Components/advices/adviceCard/adviceCard";
+@import "./Components/timeTable/timeTable";
+@import "./Components/timeTable/table/table";
+@import "./Components/contact/contact";
+@import "./Components/contact/form/form";
+
+// FOOTER //
+
+@import "./Layout/footer/footer";

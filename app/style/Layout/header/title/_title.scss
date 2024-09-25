@@ -1,0 +1,40 @@
+.header_title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  color: white;
+  text-align: center;
+
+  h1 {
+    font-size: 70px;
+    font-weight: 800;
+    text-wrap: nowrap;
+  }
+  .header_title_description {
+    margin: 2% auto 5%;
+
+    font-size: 27px;
+  }
+  .header_title_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 22px;
+    a {
+      border-radius: 45px;
+      padding: 30px 40px;
+      font-weight: 500;
+      text-decoration: none;
+      &:nth-child(1) {
+        background-color: white;
+        color: black;
+      }
+      &:nth-child(2) {
+        background-color: red;
+        color: white;
+      }
+    }
+  }
+}

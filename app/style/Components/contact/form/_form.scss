@@ -1,0 +1,27 @@
+.contact_section form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+  label {
+    display: none;
+  }
+  input,
+  textarea {
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 1px solid black;
+  }
+  textarea {
+    min-height: 200px;
+    border-radius: 30px;
+  }
+  button {
+    background-color: #f93213;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    width: fit-content;
+    border: none;
+  }
+}

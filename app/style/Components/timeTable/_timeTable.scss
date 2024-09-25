@@ -1,0 +1,17 @@
+.timeTable_section {
+  padding: 0 60px 60px;
+  h2 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 50px;
+  }
+  .timeTable_article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    img {
+      border-radius: 50px;
+      box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1490196078);
+    }
+  }
+}

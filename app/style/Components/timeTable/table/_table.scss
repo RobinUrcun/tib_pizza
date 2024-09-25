@@ -1,0 +1,25 @@
+.timeTable {
+  background-color: #ffebc0;
+  padding: 50px;
+  box-shadow: 0px 4px 25px 0px rgba(203, 93, 93, 0.149);
+  border: 1px solid black;
+  font-size: 25px;
+  border-radius: 50px;
+  background-color: #f93213;
+  color: white;
+
+  table {
+    tbody {
+      tr {
+        th {
+          display: block;
+          font-weight: 600;
+          margin: 10px;
+        }
+        td {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
