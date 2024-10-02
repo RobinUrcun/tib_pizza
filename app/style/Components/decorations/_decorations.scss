@@ -1,0 +1,33 @@
+// DECORATIONS //
+
+#decoration1 {
+  position: absolute;
+  left: 90px;
+  top: 230px;
+}
+#decoration2 {
+  position: absolute;
+  right: 0px;
+  top: -30px;
+}
+#decoration3 {
+  position: absolute;
+  left: -20px;
+  top: 40%;
+}
+#top_left_pizza {
+  position: absolute;
+  top: 0px;
+  left: -70px;
+}
+#bottom_right_pizza {
+  position: absolute;
+  bottom: -50px;
+  right: -120px;
+}
+#decoration4 {
+  position: absolute;
+  left: 70%;
+  top: 60%;
+  transform: rotate(220deg);
+}

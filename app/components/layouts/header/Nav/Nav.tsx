@@ -13,7 +13,7 @@ export default function Nav() {
         className="left_corner"
       />
       <Link href="">À propos</Link>
-      <Link href="">Notre menu</Link>
+      <Link href="/menu">Notre menu</Link>
       <Image src={"/assets/logo.svg"} width={260} height={50} alt="" />
       <Link href="">Google avis</Link>
       <Link href="">Contactez nous</Link>

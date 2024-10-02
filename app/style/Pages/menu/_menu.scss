@@ -1,0 +1,70 @@
+.page_menu_section {
+  background-color: #212121;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  padding-bottom: 0;
+  h2 {
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+  }
+  .size_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+    color: #f93213;
+    margin-bottom: 40px;
+  }
+  .pizzas_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 35px;
+    column-gap: 35px;
+    max-height: calc(100vh - 100px);
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 150px;
+
+    .manageSize {
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      background: rgb(33, 33, 33);
+      background: linear-gradient(
+        0deg,
+        rgba(33, 33, 33, 1) 56%,
+        rgba(33, 33, 33, 1) 64%,
+        rgba(0, 212, 255, 0) 100%
+      );
+      height: 150px;
+      left: 0;
+      right: 0;
+      color: #f93213;
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      padding-bottom: 40px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+  .open {
+    max-height: none;
+  }
+}

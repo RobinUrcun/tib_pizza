@@ -1,0 +1,92 @@
+[
+  {
+    "title": "La Dessin",
+    "ingredients": "Tomate, mozza, jambon, champignons frais",
+    "price": { "medium": 1300, "large": 1600 },
+    "imgUrl": "/assets/pizzas/pizza_dessin.webp"
+  },
+  {
+    "title": "La Tatouée",
+    "ingredients": "Tomate, mozza, viande hachée, mergez, lardons, oignons, oeuf",
+    "price": { "medium": 1400, "large": 1750 },
+    "imgUrl": "/assets/pizzas/pizza_tatouee.webp"
+  },
+  {
+    "title": "La Toile",
+    "ingredients": "Tomate, mozza, chorizo, mergez, oignons, poivrons",
+    "price": { "medium": 1350, "large": 1750 },
+    "imgUrl": "/assets/pizzas/pizza_toile.webp"
+  },
+  {
+    "title": "La Crayonnée",
+    "ingredients": "Crème, mozza, lardons, oignons, oeuf",
+    "price": { "medium": 1300, "large": 1650 },
+    "imgUrl": "/assets/pizzas/pizza_crayonnee.webp"
+  },
+  {
+    "title": "La Fresque",
+    "ingredients": "Tomate, mozza, oignons, Champignons frais, poivrons, courgette, asperge",
+    "price": { "medium": 1300, "large": 1650 },
+    "imgUrl": "/assets/pizzas/pizza_fresque.webp"
+  },
+  {
+    "title": "La Dessin",
+    "ingredients": "Tomate, mozza, jambon, champignons frais",
+    "price": { "medium": 1300, "large": 1600 },
+    "imgUrl": "/assets/pizzas/pizza_dessin.webp"
+  },
+  {
+    "title": "La Tatouée",
+    "ingredients": "Tomate, mozza, viande hachée, mergez, lardons, oignons, oeuf",
+    "price": { "medium": 1400, "large": 1750 },
+    "imgUrl": "/assets/pizzas/pizza_tatouee.webp"
+  },
+  {
+    "title": "La Toile",
+    "ingredients": "Tomate, mozza, chorizo, mergez, oignons, poivrons",
+    "price": { "medium": 1350, "large": 1750 },
+    "imgUrl": "/assets/pizzas/pizza_toile.webp"
+  },
+  {
+    "title": "La Crayonnée",
+    "ingredients": "Crème, mozza, lardons, oignons, oeuf",
+    "price": { "medium": 1300, "large": 1650 },
+    "imgUrl": "/assets/pizzas/pizza_crayonnee.webp"
+  },
+  {
+    "title": "La Fresque",
+    "ingredients": "Tomate, mozza, oignons, Champignons frais, poivrons, courgette, asperge",
+    "price": { "medium": 1300, "large": 1650 },
+    "imgUrl": "/assets/pizzas/pizza_fresque.webp"
+  },
+  {
+    "title": "La Dessin",
+    "ingredients": "Tomate, mozza, jambon, champignons frais",
+    "price": { "medium": 1300, "large": 1600 },
+    "imgUrl": "/assets/pizzas/pizza_dessin.webp"
+  },
+  {
+    "title": "La Tatouée",
+    "ingredients": "Tomate, mozza, viande hachée, mergez, lardons, oignons, oeuf",
+    "price": { "medium": 1400, "large": 1750 },
+    "imgUrl": "/assets/pizzas/pizza_tatouee.webp"
+  },
+  {
+    "title": "La Toile",
+    "ingredients": "Tomate, mozza, chorizo, mergez, oignons, poivrons",
+    "price": { "medium": 1350, "large": 1750 },
+    "imgUrl": "/assets/pizzas/pizza_toile.webp"
+  },
+  {
+    "title": "La Crayonnée",
+    "ingredients": "Crème, mozza, lardons, oignons, oeuf",
+    "price": { "medium": 1300, "large": 1650 },
+    "imgUrl": "/assets/pizzas/pizza_crayonnee.webp"
+  },
+  {
+    "title": "La Fresque",
+    "ingredients": "Tomate, mozza, oignons, Champignons frais, poivrons, courgette, asperge",
+    "price": { "medium": 1300, "large": 1650 },
+    "imgUrl": "/assets/pizzas/pizza_fresque.webp"
+  }
+]
