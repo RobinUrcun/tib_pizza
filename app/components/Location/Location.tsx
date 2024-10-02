@@ -18,7 +18,7 @@ interface MapProps {
 
 const Location: React.FC<MapProps> = ({ mapCenter }) => {
   return (
-    <section className="location_section">
+    <section id="location" className="location_section">
       <h2>Localisation</h2>
       <article className="map_container">
         <MapContainer

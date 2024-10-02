@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 
 export default function Advices() {
   return (
-    <section className="advices_section">
+    <section id="advices" className="advices_section">
       <div className="title_container">
         <article className="title_text_container">
           <h2>Nos clients donnent leur avis :</h2>

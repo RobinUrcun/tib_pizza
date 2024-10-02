@@ -2,8 +2,8 @@
 import React, { useState } from "react";
 import pizzas_list from "@/app/utils/pizzas_list.json";
 import PizzaCard from "./pizzaCard/PizzaCard";
-import Image from "next/image";
 import * as Switch from "@radix-ui/react-switch";
+import Decorations from "./pizzaCard/decorations/Decorations";
 
 export default function Menu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,20 +57,7 @@ export default function Menu() {
           {isOpen ? "Voir moins" : "Voir plus"}
         </p>
       </article>
-      <Image
-        id="decoration2"
-        src="/assets/header_decoration/decoration2.svg"
-        height={250}
-        width={480}
-        alt="decorations"
-      />
-      <Image
-        id="decoration3"
-        src="/assets/header_decoration/decoration3.svg"
-        height={86}
-        width={165}
-        alt="decorations"
-      />
+      <Decorations />
     </section>
   );
 }

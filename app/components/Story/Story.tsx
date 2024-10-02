@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Story() {
   return (
-    <section className="story_section">
+    <section id="about" className="story_section">
       <article className="story_section_text">
         <h2>Notre Histoire</h2>
         <p>

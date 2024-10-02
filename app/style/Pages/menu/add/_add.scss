@@ -1,0 +1,41 @@
+.add_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  padding-bottom: 100px;
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .add_article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    column-gap: 30px;
+    .add_box {
+      background-color: #f93213;
+      border-radius: 20px;
+      box-shadow: 0 4px 28px hsla(0, 0%, 0%, 0.251);
+      width: 25%;
+      min-width: 250px;
+      min-height: 130px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 5px;
+      .add_box_price {
+        font-size: 50px;
+        font-weight: 900;
+        color: white;
+      }
+      .add_box_size {
+        font-size: 30px;
+        font-weight: 400;
+        color: white;
+      }
+    }
+  }
+}

@@ -13,8 +13,9 @@
 #decoration3 {
   position: absolute;
   left: -20px;
-  top: 40%;
+  top: 450px;
 }
+
 #top_left_pizza {
   position: absolute;
   top: 0px;
@@ -30,4 +31,34 @@
   left: 70%;
   top: 60%;
   transform: rotate(220deg);
+}
+#decoration5 {
+  position: absolute;
+  right: -20px;
+  top: 900px;
+  transform: rotate(220deg);
+}
+#decoration6 {
+  position: absolute;
+  right: 110px;
+  top: 1400px;
+  transform: rotate(120deg);
+}
+#decoration7 {
+  position: absolute;
+  left: 90px;
+  top: 1400px;
+  transform: rotate(180deg);
+}
+#decoration8 {
+  position: absolute;
+  left: 0px;
+  top: 1900px;
+  transform: rotate(50deg);
+}
+#decoration9 {
+  position: absolute;
+  left: 50%;
+  top: 2400px;
+  transform: rotate(10deg);
 }

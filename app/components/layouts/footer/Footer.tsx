@@ -7,32 +7,37 @@ export default function Footer() {
     <footer className="footer">
       <Image src={"/assets/logo.svg"} height={100} width={300} alt="" />
       <nav>
-        <Link href={""}>À propos</Link>
-        <Link href={""}>Menu</Link>
-        <Link href={""}>Nous retrouver</Link>
-        <Link href={""}>Nous contacter</Link>
+        <Link href={"/#location"}>Accès</Link>
+        <Link href={"/menu"}>Notre menu</Link>
+        <Link href={"/#advices"}>Googe Avis</Link>
+
+        <Link href={"/contact"}>Nous contacter</Link>
       </nav>
       <div className="footer_container">
         <div className="footer_mentions">
           © 2024 Tib Pizza. All rights reserved.
         </div>
         <div className="footer_social">
-          <div className="img_border">
-            <Image
-              src={"/assets/social_icones/instagram_icone.svg"}
-              height={20}
-              width={20}
-              alt=""
-            />
-          </div>
-          <div className="img_border">
-            <Image
-              src={"/assets/social_icones/facebook_icone.svg"}
-              height={20}
-              width={20}
-              alt=""
-            />
-          </div>
+          <a target="_blank" href="https://www.instagram.com/tibpizza">
+            <div className="img_border">
+              <Image
+                src={"/assets/social_icones/instagram_icone.svg"}
+                height={20}
+                width={20}
+                alt=""
+              />
+            </div>
+          </a>
+          <a target="_blank" href="https://www.facebook.com/tibpizza/">
+            <div className="img_border">
+              <Image
+                src={"/assets/social_icones/facebook_icone.svg"}
+                height={20}
+                width={20}
+                alt=""
+              />
+            </div>
+          </a>
         </div>
       </div>
     </footer>

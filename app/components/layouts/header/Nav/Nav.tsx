@@ -12,11 +12,13 @@ export default function Nav() {
         alt=""
         className="left_corner"
       />
-      <Link href="">À propos</Link>
+      <Link href="/#location">Accès</Link>
       <Link href="/menu">Notre menu</Link>
-      <Image src={"/assets/logo.svg"} width={260} height={50} alt="" />
-      <Link href="">Google avis</Link>
-      <Link href="">Contactez nous</Link>
+      <Link href={"/"}>
+        <Image src={"/assets/logo.svg"} width={260} height={50} alt="" />
+      </Link>
+      <Link href="/#advices">Google avis</Link>
+      <Link href="/contact">Contactez nous</Link>
       <Image
         src={"/assets/header_decoration/corner_right.svg"}
         height={100}
