@@ -6,15 +6,12 @@ export default function HomeHeader() {
   return (
     <React.Fragment>
       <h1>
-        <Image src={"/assets/logo.svg"} width={860} height={250} alt="" />
+        <Image src={"/assets/logo.svg"} width={860} height={200} alt="" />
       </h1>
-      <p className="header_title_description">
-        Découvrez nos pizza artisanales réalisée a partir d&apos;ingredients
-        frais
-      </p>
+      <p className="header_title_description">06 90 01 02 03</p>
       <div className="header_title_link">
-        <Link href={""}>Découvrir notre menu</Link>
-        <Link href={""}>Localisation</Link>
+        <Link href={"/menu"}>Découvrir notre menu</Link>
+        <Link href={"/#location"}>Localisation</Link>
       </div>
     </React.Fragment>
   );

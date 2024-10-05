@@ -8,7 +8,7 @@ export default function Menu() {
     <section className="menu_section">
       <h2>Notre Menu</h2>
       <MainPizzas />
-      <Link className="menu_link" href={""}>
+      <Link className="menu_link" href={"/menu"}>
         Voir tous
       </Link>
       <Image

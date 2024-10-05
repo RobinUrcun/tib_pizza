@@ -5,7 +5,7 @@ import Table from "./Table/Table";
 export default function TimeTable() {
   return (
     <section className="timeTable_section">
-      <h2>Nos Horraires</h2>
+      <h2>Nos Horaires</h2>
       <article className="timeTable_article">
         <Image
           src={"/assets/timeTable_section/storeFront.jpg"}

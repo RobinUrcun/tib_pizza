@@ -30,8 +30,6 @@ export default function Advices() {
           spaceBetween={0}
           navigation={true}
           slidesPerView={3}
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
         >
           {advicesList.map((advice, index) => (
             <SwiperSlide

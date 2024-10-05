@@ -1,8 +1,19 @@
 .story_section {
   display: flex;
   flex-direction: row;
+  align-items: center;
   padding: 100px 60px;
   column-gap: 110px;
+  row-gap: 50px;
+  @media screen and (max-width: 900px) {
+    column-gap: 50px;
+  }
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
+  @media screen and (max-width: 550px) {
+    padding: 60px 20px;
+  }
   .story_section_text {
     display: flex;
     flex-direction: column;
@@ -12,6 +23,9 @@
     h2 {
       font-size: 50px;
       font-weight: 800;
+      @media screen and (max-width: 550px) {
+        font-size: 33px;
+      }
     }
     p {
       font-weight: 300;
@@ -21,6 +35,19 @@
   .story_section_image {
     position: relative;
     height: fit-content;
+    @media screen and (max-width: 1000px) {
+      img {
+        width: 350px;
+        height: auto;
+      }
+    }
+    @media screen and (max-width: 800px) {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
     .image_point {
       position: absolute;
       width: 110px;
@@ -32,6 +59,18 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      @media screen and (max-width: 1000px) {
+        width: 75px;
+        height: 75px;
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      @media screen and (max-width: 800px) {
+        width: 21%;
+        height: 28%;
+      }
     }
   }
 }

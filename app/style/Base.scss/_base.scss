@@ -1,6 +1,9 @@
 header,
 section {
   margin: 0 25px;
+  @media screen and (max-width: 600px) {
+    margin: 0 10px;
+  }
 }
 
 body {

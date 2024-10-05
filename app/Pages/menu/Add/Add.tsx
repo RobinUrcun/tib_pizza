@@ -3,7 +3,7 @@ import React from "react";
 export default function Add() {
   return (
     <section className="add_section">
-      <h2>Vous souhaitez personnaliser votre pizza ?</h2>
+      <h2>Vous souhaitez ajouter un ingrédient ?</h2>
       <article className="add_article">
         <div className="add_box">
           <p className="add_box_price">1,50 €</p>

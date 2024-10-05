@@ -16,12 +16,26 @@ export default function MainPizzas() {
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         autoplay={true}
-        centeredSlides={true}
         centeredSlidesBounds={true}
         spaceBetween={0}
         slidesPerView={3}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+        breakpoints={{
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          // when window width is >= 1024px
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+        }}
       >
         {main_pizza.map((pizza, index) => (
           <SwiperSlide key={`${pizza} ${index}`}>

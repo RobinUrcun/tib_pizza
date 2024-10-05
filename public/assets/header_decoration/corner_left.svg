@@ -4,7 +4,7 @@
     <!-- Remplit tout de blanc -->
     <rect width="200" height="200" fill="white" />
     <!-- Crée un trou carré avec des coins arrondis -->
-    <rect x="0" y="0" width="200" height="200" rx="50" ry="50" fill="black" />
+    <rect x="0" y="0" width="200" height="200" rx="25" ry="25" fill="black" />
   </mask>
 
   <!-- Fond blanc avec un trou où le masque est appliqué -->

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Nav() {
   return (
-    <nav className="header_nav">
+    <nav className="header_nav header_nav_no_responsive">
       <Image
         src={"/assets/header_decoration/corner_left.svg"}
         height={100}
