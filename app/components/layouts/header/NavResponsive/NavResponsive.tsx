@@ -48,26 +48,16 @@ export default function NavResponsive() {
         className="menu_responsive_burger"
       >
         <div
-          className={`menu_responsive_bar ${
-            isOpen ? "open_burger" : isOpen === false ? "close_burger" : null
-          }`}
+          className={`menu_responsive_bar ${isOpen ? "open_burger" : null}`}
         ></div>
         <div
-          className={`menu_responsive_bar ${
-            isOpen ? "open_burger" : isOpen === false ? "close_burger" : null
-          }`}
+          className={`menu_responsive_bar ${isOpen ? "open_burger" : null}`}
         ></div>
         <div
-          className={`menu_responsive_bar ${
-            isOpen ? "open_burger" : isOpen === false ? "close_burger" : null
-          }`}
+          className={`menu_responsive_bar ${isOpen ? "open_burger" : null}`}
         ></div>
       </div>
-      <div
-        className={`menu_content ${
-          isOpen ? "appear_menu" : isOpen === false ? "closeMenu" : null
-        }`}
-      >
+      <div className={`menu_content ${isOpen ? "appear_menu" : null}`}>
         <div
           onClick={() => {
             openMenu();

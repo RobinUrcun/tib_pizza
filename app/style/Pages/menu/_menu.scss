@@ -9,6 +9,7 @@
   flex-direction: column;
   padding: 50px;
   padding-bottom: 0;
+
   h2 {
     margin-bottom: 30px;
     font-size: 60px;
@@ -25,6 +26,9 @@
     font-weight: 500;
     color: #f93213;
     margin-bottom: 40px;
+    @media screen and (max-width: 950px) {
+      justify-content: flex-start;
+    }
   }
   .pizzas_wrapper {
     display: flex;

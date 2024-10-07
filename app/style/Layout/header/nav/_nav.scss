@@ -113,6 +113,8 @@
   .menu_responsive_burger {
     padding: 15px;
     .menu_responsive_bar {
+      transition: transform 1s, translateX 1s, opacity 1s;
+
       width: 40px;
       height: 4px;
       background-color: rgb(39, 102, 51);
@@ -125,43 +127,18 @@
       }
     }
     .open_burger {
+      transition: transform 1s, opacity 1s;
+
       &:nth-child(1) {
-        background-color: red;
-        animation-name: rotateFirstbar;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
+        transform: rotate(45deg) translateX(6px);
       }
       &:nth-child(2) {
-        background-color: red;
-        animation-name: rotateSecondbar;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
+        transition: transform 1s;
+
+        transform: rotate(-45deg) translateX(6px);
       }
       &:nth-child(3) {
-        background-color: red;
-        animation-name: rotateThirdbar;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-      }
-    }
-    .close_burger {
-      &:nth-child(1) {
-        background-color: red;
-        animation-name: closeFirstbar;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-      }
-      &:nth-child(2) {
-        background-color: red;
-        animation-name: closeSecondbar;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-      }
-      &:nth-child(3) {
-        background-color: red;
-        animation-name: closeThirdbar;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
+        opacity: 0;
       }
     }
   }
@@ -179,6 +156,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  transition: transform 1s;
+
   .close_menu_content {
     padding: 20px;
     position: absolute;
@@ -187,7 +166,7 @@
     .close_menu_content_bar {
       width: 30px;
       height: 4px;
-      background-color: black;
+      background-color: rgb(39, 102, 51);
       &:nth-child(1) {
         transform: rotate(45deg) translateX(2px);
       }
@@ -198,12 +177,5 @@
   }
 }
 .appear_menu {
-  animation-name: appearMenu;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-}
-.closeMenu {
-  animation-name: closeMenu;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
+  transform: translateX(0);
 }
