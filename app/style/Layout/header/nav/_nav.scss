@@ -110,4 +110,100 @@
   @media screen and (max-width: 650px) {
     min-width: auto;
   }
+  .menu_responsive_burger {
+    padding: 15px;
+    .menu_responsive_bar {
+      width: 40px;
+      height: 4px;
+      background-color: rgb(39, 102, 51);
+      &:nth-child(1),
+      &:nth-child(2) {
+        margin-bottom: 5px;
+      }
+      @media screen and (max-width: 700px) {
+        width: 30px;
+      }
+    }
+    .open_burger {
+      &:nth-child(1) {
+        background-color: red;
+        animation-name: rotateFirstbar;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+      }
+      &:nth-child(2) {
+        background-color: red;
+        animation-name: rotateSecondbar;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+      }
+      &:nth-child(3) {
+        background-color: red;
+        animation-name: rotateThirdbar;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+      }
+    }
+    .close_burger {
+      &:nth-child(1) {
+        background-color: red;
+        animation-name: closeFirstbar;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+      }
+      &:nth-child(2) {
+        background-color: red;
+        animation-name: closeSecondbar;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+      }
+      &:nth-child(3) {
+        background-color: red;
+        animation-name: closeThirdbar;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+      }
+    }
+  }
+}
+
+.menu_content {
+  z-index: 1999;
+  transform: translateX(-100%);
+  position: fixed;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .close_menu_content {
+    padding: 20px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    .close_menu_content_bar {
+      width: 30px;
+      height: 4px;
+      background-color: black;
+      &:nth-child(1) {
+        transform: rotate(45deg) translateX(2px);
+      }
+      &:nth-child(2) {
+        transform: rotate(-45deg) translateX(2px);
+      }
+    }
+  }
+}
+.appear_menu {
+  animation-name: appearMenu;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.closeMenu {
+  animation-name: closeMenu;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }

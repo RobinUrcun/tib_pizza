@@ -12,6 +12,7 @@ export default function Contact() {
           height={600}
           width={600}
           alt=""
+          loading="lazy"
         />
       </div>
     </section>

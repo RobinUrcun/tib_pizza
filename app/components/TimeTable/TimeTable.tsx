@@ -13,6 +13,7 @@ export default function TimeTable() {
           width={700}
           alt=""
           style={{ objectFit: "cover" }}
+          loading="lazy"
         />
         <div className="timeTable_article_wrapper">
           <Table />

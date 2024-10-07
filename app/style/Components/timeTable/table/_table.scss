@@ -1,21 +1,26 @@
 .timeTable {
   background-color: #ffebc0;
   padding: 50px;
-  box-shadow: 0px 4px 25px 0px rgba(203, 93, 93, 0.149);
+  box-shadow: 0px 4px 25px 0px rgb(86, 82, 82);
   border: 1px solid black;
   font-size: 25px;
   border-radius: 50px;
-  background-color: #f93213;
-  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(219deg, #34843a 15.24%, #454545 99.6%);
+  color: rgb(255 255 192);
   @media screen and (max-width: 1000px) {
     padding: 40px;
-
-    font-size: 20px;
   }
   @media screen and (max-width: 800px) {
     padding: 30px;
-
-    font-size: 16px;
+  }
+  @media screen and (max-width: 1000px) {
+    border-radius: 30px;
+  }
+  @media screen and (max-width: 350px) {
+    font-size: 20px;
   }
 
   table {

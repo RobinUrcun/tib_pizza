@@ -1,11 +1,23 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { bubble as Menu } from "react-burger-menu";
 
 export default function NavResponsive() {
+  const [isOpen, setIsOpen] = useState(null);
+
+  const openMenu = function () {
+    if (!isOpen) {
+      setIsOpen(true);
+    } else {
+      setIsOpen(false);
+    }
+  };
+
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
   return (
     <nav className="header_nav header_nav_responsive" id="responsive_nav">
       <Image
@@ -22,15 +34,6 @@ export default function NavResponsive() {
         alt=""
         id="responsive_logo"
       />
-      <Menu>
-        <Link href="/#location">Accès</Link>
-        <Link href="/menu">Notre menu</Link>
-        <Link href={"/"}>
-          <Image src={"/assets/logo.svg"} width={260} height={50} alt="" />
-        </Link>
-        <Link href="/#advices">Google avis</Link>
-        <Link href="/contact">Contactez nous</Link>
-      </Menu>
       <Image
         src={"/assets/header_decoration/corner_right.svg"}
         height={100}
@@ -38,6 +41,84 @@ export default function NavResponsive() {
         alt=""
         className="right_corner"
       />
+      <div
+        onClick={() => {
+          openMenu();
+        }}
+        className="menu_responsive_burger"
+      >
+        <div
+          className={`menu_responsive_bar ${
+            isOpen ? "open_burger" : isOpen === false ? "close_burger" : null
+          }`}
+        ></div>
+        <div
+          className={`menu_responsive_bar ${
+            isOpen ? "open_burger" : isOpen === false ? "close_burger" : null
+          }`}
+        ></div>
+        <div
+          className={`menu_responsive_bar ${
+            isOpen ? "open_burger" : isOpen === false ? "close_burger" : null
+          }`}
+        ></div>
+      </div>
+      <div
+        className={`menu_content ${
+          isOpen ? "appear_menu" : isOpen === false ? "closeMenu" : null
+        }`}
+      >
+        <div
+          onClick={() => {
+            openMenu();
+          }}
+          className="close_menu_content"
+        >
+          <div className="close_menu_content_bar"></div>
+          <div className="close_menu_content_bar"></div>
+        </div>
+        <Link
+          onClick={() => {
+            closeMenu();
+          }}
+          href={"/"}
+        >
+          <Image src={"/assets/logo.svg"} width={260} height={50} alt="" />
+        </Link>
+        <Link
+          onClick={() => {
+            closeMenu();
+          }}
+          href="/#location"
+        >
+          Accès
+        </Link>
+        <Link
+          onClick={() => {
+            closeMenu();
+          }}
+          href="/menu"
+        >
+          Notre menu
+        </Link>
+
+        <Link
+          onClick={() => {
+            closeMenu();
+          }}
+          href="/#advices"
+        >
+          Google avis
+        </Link>
+        <Link
+          onClick={() => {
+            closeMenu();
+          }}
+          href="/contact"
+        >
+          Contactez nous
+        </Link>
+      </div>
     </nav>
   );
 }

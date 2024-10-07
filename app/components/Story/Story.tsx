@@ -25,6 +25,7 @@ export default function Story() {
             width={25}
             height={25}
             alt=""
+            loading="lazy"
           />
         </div>
         <Image
@@ -32,6 +33,7 @@ export default function Story() {
           height={378}
           width={504}
           alt=""
+          loading="lazy"
         />
       </aside>
     </section>
