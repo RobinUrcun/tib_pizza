@@ -14,7 +14,7 @@ export default function Nav() {
       />
       <Link href="/#location">Accès</Link>
       <Link href="/menu">Notre menu</Link>
-      <Link href={"/"}>
+      <Link href={"/"} aria-label="Retourner au menu principal">
         <Image src={"/assets/logo.svg"} width={260} height={50} alt="" />
       </Link>
       <Link href="/#advices">Google avis</Link>

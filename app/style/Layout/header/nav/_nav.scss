@@ -92,6 +92,7 @@
   }
 }
 #responsive_logo {
+  height: auto;
   width: 150px;
   @media screen and (max-width: 400px) {
     width: 100px;

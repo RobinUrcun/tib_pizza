@@ -27,13 +27,15 @@ export default function NavResponsive() {
         alt=""
         className="left_corner"
       />
-      <Image
-        src={"/assets/logo.svg"}
-        width={260}
-        height={50}
-        alt=""
-        id="responsive_logo"
-      />
+      <Link href={"/"} aria-label="Retourner au menu principal">
+        <Image
+          src={"/assets/logo.svg"}
+          width={260}
+          height={50}
+          alt=""
+          id="responsive_logo"
+        />
+      </Link>
       <Image
         src={"/assets/header_decoration/corner_right.svg"}
         height={100}
@@ -72,6 +74,7 @@ export default function NavResponsive() {
             closeMenu();
           }}
           href={"/"}
+          aria-label="Retourner à la page d'accueil"
         >
           <Image src={"/assets/logo.svg"} width={260} height={50} alt="" />
         </Link>

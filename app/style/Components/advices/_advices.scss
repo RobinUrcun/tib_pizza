@@ -10,6 +10,9 @@
   @media screen and (max-width: 900px) {
     padding: 30px;
   }
+  @media screen and (max-width: 500px) {
+    border-radius: 30px;
+  }
   @media screen and (max-width: 400px) {
     padding: 30px 15px;
   }
@@ -38,7 +41,7 @@
       }
     }
     a {
-      background-color: #f93213;
+      background-color: #e52406;
       padding: 20px 40px;
       border-radius: 30px;
       color: white;

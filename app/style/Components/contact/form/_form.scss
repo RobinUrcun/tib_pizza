@@ -17,11 +17,14 @@
     border-radius: 30px;
   }
   button {
-    background-color: #f93213;
+    background-color: #e52406;
     color: white;
     padding: 15px;
     border-radius: 30px;
     width: fit-content;
     border: none;
+    @media screen and (max-width: 550px) {
+      margin: auto;
+    }
   }
 }

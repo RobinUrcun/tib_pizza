@@ -25,6 +25,7 @@ export default function Footer() {
                 height={20}
                 width={20}
                 alt=""
+                aria-label="Découvrez notre Instagram"
               />
             </div>
           </a>
@@ -35,6 +36,7 @@ export default function Footer() {
                 height={20}
                 width={20}
                 alt=""
+                aria-label="Découvrez notre Facebook"
               />
             </div>
           </a>

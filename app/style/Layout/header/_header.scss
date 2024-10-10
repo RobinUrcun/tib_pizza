@@ -1,8 +1,10 @@
 .header {
   background: linear-gradient(256.52deg, #34843a 15.24%, #454545 99.6%);
-  height: calc(100vh - 25px);
   min-height: 600px;
   border-radius: 50px;
   position: relative;
   overflow: hidden;
+  @media screen and (max-width: 500px) {
+    border-radius: 30px;
+  }
 }

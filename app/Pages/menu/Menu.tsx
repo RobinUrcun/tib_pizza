@@ -13,23 +13,12 @@ export default function Menu() {
       <h2>Nos pizzas</h2>
       <div className="size_wrapper">
         <p>Disponibles en 29 cm ou 40 cm !</p>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            position: "absolute",
-            right: 0,
-            zIndex: 98,
-          }}
-        >
-          <label
-            className="Label"
-            htmlFor="airplane-mode"
-            style={{ paddingRight: 15, fontSize: 30, fontWeight: 500 }}
-          >
+        <div className="size_btn_wrapper">
+          <label className="Label" htmlFor="airplane-mode">
             {size === "medium" ? "29 cm" : "40cm"}
           </label>
           <Switch.Root
+            aria-label="Modifier la taille"
             className="SwitchRoot"
             id="airplane-mode"
             onCheckedChange={() => {

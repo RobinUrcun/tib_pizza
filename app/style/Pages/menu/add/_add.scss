@@ -3,19 +3,29 @@
   flex-direction: column;
   align-items: center;
   row-gap: 30px;
-  padding-bottom: 100px;
+  padding: 0 20px 100px;
+
   h2 {
     font-size: 40px;
     font-weight: 700;
+    text-align: center;
+    @media screen and (max-width: 850px) {
+      font-size: 30px;
+    }
   }
   .add_article {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    row-gap: 30px;
     width: 100%;
     column-gap: 30px;
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+    }
     .add_box {
-      background-color: #f93213;
+      background-color: #e52406;
       border-radius: 20px;
       box-shadow: 0 4px 28px hsla(0, 0%, 0%, 0.251);
       width: 25%;
@@ -26,15 +36,25 @@
       justify-content: center;
       align-items: center;
       row-gap: 5px;
+      @media screen and (max-width: 850px) {
+        min-width: 200px;
+        min-height: 100px;
+      }
       .add_box_price {
         font-size: 50px;
         font-weight: 900;
         color: white;
+        @media screen and (max-width: 850px) {
+          font-size: 30px;
+        }
       }
       .add_box_size {
         font-size: 30px;
         font-weight: 400;
         color: white;
+        @media screen and (max-width: 850px) {
+          font-size: 20px;
+        }
       }
     }
   }

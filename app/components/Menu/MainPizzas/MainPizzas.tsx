@@ -42,9 +42,9 @@ export default function MainPizzas() {
             <div className="main_pizza">
               <Image
                 src={pizza.imgUrl}
-                width={pizza.width}
-                height={pizza.height}
-                alt={pizza.alt}
+                width={350}
+                height={250}
+                alt={pizza.title}
               />
               <div className="filter"></div>
               <h3>{pizza.title}</h3>

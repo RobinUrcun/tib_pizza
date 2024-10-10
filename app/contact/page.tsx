@@ -6,7 +6,7 @@ export default function page() {
   return (
     <React.Fragment>
       <Header>
-        <h1>Contactez-nous</h1>
+        <h1>Contactez nous</h1>
       </Header>
       <Contact />
       <Footer />

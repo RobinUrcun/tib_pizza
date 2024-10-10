@@ -6,7 +6,13 @@ export default function HomeHeader() {
   return (
     <React.Fragment>
       <h1>
-        <Image src={"/assets/logo.svg"} width={860} height={200} alt="" />
+        <Image
+          src={"/assets/logo.svg"}
+          width={860}
+          height={200}
+          alt=""
+          loading="eager"
+        />
       </h1>
       <p className="header_title_description">06 90 01 02 03</p>
       <div className="header_title_link">
