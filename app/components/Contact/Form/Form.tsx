@@ -5,16 +5,19 @@ import "react-toastify/dist/ReactToastify.css";
 
 export default function Form() {
   const sendMessage = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const form = e.target as HTMLFormElement;
     fetch("/api/sendMessage", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        name: e.target.name.value,
-        mail: e.target.mail.value,
-        phone: e.target.phone.value,
-        message: e.target.message.value,
+        name: form.name.value,
+        mail: form.mail.value,
+        phone: form.phone.value,
+        message: form.message.value,
       }),
     })
       .then(() => {
