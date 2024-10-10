@@ -15,7 +15,12 @@ export default function PizzaCard({ pizza, size }: PizzaObj) {
   return (
     <div className="pizza_card">
       <div className="img_wrapper">
-        <Image src={pizza.imgUrl} fill={true} alt={pizza.title} />
+        <Image
+          src={pizza.imgUrl}
+          fill={true}
+          alt={pizza.title}
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 30vw, 30vw"
+        />
       </div>
       <div className="title_wrapper">
         <h3>{pizza.title}</h3>

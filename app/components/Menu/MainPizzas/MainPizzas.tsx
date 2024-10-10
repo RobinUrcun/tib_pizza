@@ -45,6 +45,7 @@ export default function MainPizzas() {
                 width={350}
                 height={250}
                 alt={pizza.title}
+                sizes="(max-width: 768px) 50vw, (max-width: 1200px) 30vw, 30vw"
               />
               <div className="filter"></div>
               <h3>{pizza.title}</h3>
