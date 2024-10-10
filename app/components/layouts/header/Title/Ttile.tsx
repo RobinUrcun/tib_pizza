@@ -1,5 +1,8 @@
 import React from "react";
 
-export default function Head({ children }) {
+interface HeadProps {
+  children: React.ReactNode;
+}
+export default function Head({ children }: HeadProps) {
   return <div className="header_title">{children}</div>;
 }

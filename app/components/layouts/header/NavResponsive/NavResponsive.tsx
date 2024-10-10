@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function NavResponsive() {
-  const [isOpen, setIsOpen] = useState(null);
+  const [isOpen, setIsOpen] = useState(false);
 
   const openMenu = function () {
     if (!isOpen) {
