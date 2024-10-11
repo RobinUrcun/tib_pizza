@@ -29,9 +29,9 @@ export default function NavResponsive() {
       />
       <Link href={"/"} aria-label="Retourner au menu principal">
         <Image
-          src={"/assets/logo.svg"}
-          width={260}
-          height={50}
+          src={"/assets/logo_MQ.webp"}
+          width={150}
+          height={36}
           alt=""
           id="responsive_logo"
         />
@@ -76,7 +76,7 @@ export default function NavResponsive() {
           href={"/"}
           aria-label="Retourner à la page d'accueil"
         >
-          <Image src={"/assets/logo.svg"} width={260} height={50} alt="" />
+          <Image src={"/assets/logo_MQ.webp"} width={260} height={50} alt="" />
         </Link>
         <Link
           onClick={() => {

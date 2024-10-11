@@ -7,7 +7,7 @@ export default function HomeHeader() {
     <React.Fragment>
       <h1>
         <Image
-          src={"/assets/logo.svg"}
+          src={"/assets/logo_MQ.webp"}
           width={860}
           height={200}
           alt=""

@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="footer">
-      <Image src={"/assets/logo.svg"} height={100} width={300} alt="" />
+      <Image src={"/assets/logo_MQ.webp"} height={100} width={300} alt="" />
       <nav>
         <Link href={"/#location"}>Accès</Link>
         <Link href={"/menu"}>Notre menu</Link>

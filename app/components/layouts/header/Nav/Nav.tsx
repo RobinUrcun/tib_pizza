@@ -15,7 +15,7 @@ export default function Nav() {
       <Link href="/#location">Accès</Link>
       <Link href="/menu">Notre menu</Link>
       <Link href={"/"} aria-label="Retourner au menu principal">
-        <Image src={"/assets/logo.svg"} width={260} height={50} alt="" />
+        <Image src={"/assets/logo_MQ.webp"} width={250} height={60} alt="" />
       </Link>
       <Link href="/#advices">Google avis</Link>
       <Link href="/contact">Contactez nous</Link>

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import pizzas_list from "@/app/utils/pizzas_list.json";
 import PizzaCard from "./pizzaCard/PizzaCard";
 import * as Switch from "@radix-ui/react-switch";
-import Decorations from "./pizzaCard/decorations/Decorations";
+// import Decorations from "./pizzaCard/decorations/Decorations";
 
 export default function Menu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,7 +46,7 @@ export default function Menu() {
           {isOpen ? "Voir moins" : "Voir plus"}
         </p>
       </article>
-      <Decorations />
+      {/* <Decorations /> */}
     </section>
   );
 }
