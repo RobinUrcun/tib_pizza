@@ -8,13 +8,18 @@ export default function Story() {
       <article className="story_section_text">
         <h2>Notre Histoire</h2>
         <p>
-          We are passionate pizza makers bringing the authentic taste of
-          wood-fired pizzas to the streets. Our pizza truck travels to different
-          locations, serving delicious, freshly-made pizza to our community.
+          Bienvenue à Pizza Sainte-Anne, votre camion à pizza fixe situé au cœur
+          de la Guadeloupe, à Sainte-Anne ! Nous vous proposons des pizzas
+          savoureuses, cuites au feu de bois pour un goût authentique et
+          inimitable. Tous nos ingrédients sont sélectionnés avec soin pour
+          garantir fraîcheur et qualité dans chaque bouchée. Chaque quinzaine,
+          laissez-vous surprendre par notre pizza spéciale, une recette unique
+          imaginée pour régaler vos papilles.
         </p>
         <p>
-          Our ingredients are always fresh, and our recipes are crafted to bring
-          out the best flavors in every bite!
+          Que ce soit pour une soirée entre amis ou un repas en famille, venez
+          profiter d’un moment convivial et gourmand chez nous. Pizza
+          Sainte-Anne, la qualité au service de la tradition.
         </p>
       </article>
       <aside className="story_section_image">
