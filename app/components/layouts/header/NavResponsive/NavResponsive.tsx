@@ -24,7 +24,7 @@ export default function NavResponsive() {
         src={"/assets/header_decoration/corner_left.svg"}
         height={100}
         width={100}
-        alt=""
+        alt="Décoration"
         className="left_corner"
       />
       <Link href={"/"} aria-label="Retourner au menu principal">
@@ -32,7 +32,7 @@ export default function NavResponsive() {
           src={"/assets/logo_MQ.webp"}
           width={150}
           height={36}
-          alt=""
+          alt="Décoration"
           id="responsive_logo"
         />
       </Link>
@@ -40,7 +40,7 @@ export default function NavResponsive() {
         src={"/assets/header_decoration/corner_right.svg"}
         height={100}
         width={100}
-        alt=""
+        alt="Décoration"
         className="right_corner"
       />
       <div
@@ -76,7 +76,12 @@ export default function NavResponsive() {
           href={"/"}
           aria-label="Retourner à la page d'accueil"
         >
-          <Image src={"/assets/logo_MQ.webp"} width={250} height={60} alt="" />
+          <Image
+            src={"/assets/logo_MQ.webp"}
+            width={250}
+            height={60}
+            alt="Logo Tib Pizza"
+          />
         </Link>
         <Link
           onClick={() => {

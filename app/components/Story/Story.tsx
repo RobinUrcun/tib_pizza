@@ -29,7 +29,7 @@ export default function Story() {
             src={"/assets/first_section/arrow.svg"}
             width={25}
             height={25}
-            alt=""
+            alt="Une fleche"
             loading="lazy"
           />
         </div>
@@ -37,7 +37,7 @@ export default function Story() {
           src="/assets/first_section/first_section_picture.png"
           height={378}
           width={504}
-          alt=""
+          alt="Notre Food Truck"
           loading="lazy"
         />
       </aside>

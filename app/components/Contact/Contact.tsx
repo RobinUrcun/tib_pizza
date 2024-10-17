@@ -11,7 +11,7 @@ export default function Contact() {
           src={"/assets/contact_section/oven.png"}
           height={600}
           width={600}
-          alt=""
+          alt="Notre four à pizza"
           loading="lazy"
         />
       </div>

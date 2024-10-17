@@ -55,7 +55,7 @@ export default function MainPizzas() {
                     src={"/assets/first_section/arrow.svg"}
                     width={15}
                     height={15}
-                    alt=""
+                    alt="Une flèche"
                   />
                 </div>
               </div>

@@ -5,7 +5,12 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="footer">
-      <Image src={"/assets/logo_MQ.webp"} height={60} width={250} alt="" />
+      <Image
+        src={"/assets/logo_MQ.webp"}
+        height={60}
+        width={250}
+        alt="Logo Tib Pizza"
+      />
       <nav>
         <Link href={"/#location"}>Accès</Link>
         <Link href={"/menu"}>Notre menu</Link>
@@ -24,7 +29,7 @@ export default function Footer() {
                 src={"/assets/social_icones/instagram_icone.svg"}
                 height={20}
                 width={20}
-                alt=""
+                alt="Découvrez notre Instagram"
                 aria-label="Découvrez notre Instagram"
               />
             </div>
@@ -35,7 +40,7 @@ export default function Footer() {
                 src={"/assets/social_icones/facebook_icone.svg"}
                 height={20}
                 width={20}
-                alt=""
+                alt="Découvrez notre Facebook"
                 aria-label="Découvrez notre Facebook"
               />
             </div>

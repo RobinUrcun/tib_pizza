@@ -40,7 +40,7 @@ export default function AdviceCard({ props }: { props: AdviceCardProps }) {
             src={"/assets/icons/google.svg"}
             height={30}
             width={30}
-            alt=""
+            alt="icone de Google"
           />
         </div>
       </div>

@@ -11,7 +11,7 @@ export default function TimeTable() {
           src={"/assets/timeTable_section/storeFront.jpg"}
           height={400}
           width={700}
-          alt=""
+          alt="Notre Food truck"
           style={{ objectFit: "cover" }}
           loading="lazy"
         />

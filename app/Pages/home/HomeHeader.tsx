@@ -10,7 +10,7 @@ export default function HomeHeader() {
           src={"/assets/logo_MQ.webp"}
           width={860}
           height={200}
-          alt=""
+          alt="Logo Tib Pizza"
           loading="eager"
         />
       </h1>

@@ -9,13 +9,18 @@ export default function Nav() {
         src={"/assets/header_decoration/corner_left.svg"}
         height={100}
         width={100}
-        alt=""
+        alt="Pizza décorative"
         className="left_corner"
       />
       <Link href="/#location">Accès</Link>
       <Link href="/menu">Notre menu</Link>
       <Link href={"/"} aria-label="Retourner au menu principal">
-        <Image src={"/assets/logo_MQ.webp"} width={250} height={60} alt="" />
+        <Image
+          src={"/assets/logo_MQ.webp"}
+          width={250}
+          height={60}
+          alt="Logo Tib Pizza"
+        />
       </Link>
       <Link href="/#advices">Google avis</Link>
       <Link href="/contact">Contactez nous</Link>
@@ -23,7 +28,7 @@ export default function Nav() {
         src={"/assets/header_decoration/corner_right.svg"}
         height={100}
         width={100}
-        alt=""
+        alt="Pizza décorative"
         className="right_corner"
       />
     </nav>
