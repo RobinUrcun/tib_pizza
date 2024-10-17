@@ -76,7 +76,7 @@ export default function NavResponsive() {
           href={"/"}
           aria-label="Retourner à la page d'accueil"
         >
-          <Image src={"/assets/logo_MQ.webp"} width={260} height={50} alt="" />
+          <Image src={"/assets/logo_MQ.webp"} width={250} height={60} alt="" />
         </Link>
         <Link
           onClick={() => {
